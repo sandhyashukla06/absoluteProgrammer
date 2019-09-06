@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project-01</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Project 01</h3>
+    </div>
+    <div>
+        <div>
+            <p>Q.1: Number is Prime/Not_Prime.</p>
+            <p>Q.2: Number is Palindrome/Not_Palindrome.</p>
+            <p>Q.3: Number is Perfect/Not_Perfect.</p>
+            <p>Q.4: Clear the input field.</p>
+        </div>
+        <div>
+            <span>Enter the Number</span><br/>
+            <input type="text" id="num"><br/>
+        </div>   
+        <div>
+                <button type="button" onclick="isPrime()" id="isPrime">Is Prinme</button>
+                <button type="button" onclick="isPalin()" id="isPalin">Is Palamdrome</button>
+                <button type="button" onclick="isPerfect()" id="isPerfect">Is Perfect Number</button>
+                <button type="button" onclick="document.getElementById('num').value = ''">Clear_Input</button>
+        </div> 
+       <!-- <div>
+            <span>Enter the firstNumber</span><br/>
+            <input type="text" id="firstNumber"><br/>
+            <span>Enter the lastNumber</span><br/>
+            <input type="text" id="lastNumber"><br/>
+
+        </div> -->
+        <div>
+            <p>Output:</p>
+            <div id="resultPrime"></div>
+            <div id="resultPalin"></div>
+            <div id="resultPerfect"></div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>

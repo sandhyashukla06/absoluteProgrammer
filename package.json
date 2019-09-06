@@ -1,0 +1,20 @@
+{
+  "name": "absoluteprogrammer",
+  "version": "1.0.0",
+  "description": "making every day happy when you doing programming!!!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node project_01/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penseurtank/absoluteProgrammer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penseurtank/absoluteProgrammer/issues"
+  },
+  "homepage": "https://github.com/penseurtank/absoluteProgrammer#readme"
+}
