@@ -26,7 +26,7 @@ body, html {width: 100%; height: 100%; margin:0;}
 
 .signUpPageBlock p {text-align: center;}
 .inputField label {margin-right: 16px; flex:1 1 auto;}
-.inputField input {min-width: 168px; flex:0 0 auto;}
+.inputField input {min-width: auto; flex:0 0 auto;}
 .inputField{
     padding:8px 0; 
     display: flex;
@@ -34,8 +34,9 @@ body, html {width: 100%; height: 100%; margin:0;}
     border-radius: 4px;
 }
 .radioButton{
-justify-content: flex-end;
-
+    justify-content: flex-start;
+    display: flex;
+    flex: 1 1 auto;
 }
 .inputSubmit{    
     align-items: center;
