@@ -1,0 +1,48 @@
+body, html {width: 100%; height: 100%; margin:0;}
+
+.loginContainer {height: 100%; display: flex; flex-direction: column;}
+.headerBlock{
+    border-bottom:1px solid rgba(0,0,0,0.12);
+    height: 64px;
+    background-color: aqua;
+}
+.headerText{
+    text-align: center;
+}
+.contentBlock{
+    height: calc(100vh - 64px);
+    background-color: aliceblue;
+    display: flex; align-items: center; justify-content: center;
+}
+/*.footerBlock{
+    border-style: groove;
+    height: 65px;
+}*/
+.signUpPageBlock {border:1px solid rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.signUpPageBlock p {text-align: center;}
+.inputField label {margin-right: 16px; flex:1 1 auto;}
+.inputField input {min-width: 168px; flex:0 0 auto;}
+.inputField{
+    padding:8px 0; 
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+.radioButton{
+justify-content: flex-end;
+
+}
+.inputSubmit{    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 8px;
+}
+.anchorTag{
+    
+}
